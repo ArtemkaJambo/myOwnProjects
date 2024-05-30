@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід в особистий кабінет</title>
+    <link rel="stylesheet" href="/signs/signUp.css">
+    <script src="https://kit.fontawesome.com/74579244ec.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+    <div class="container">
+        <form>
+            <i class="fa-regular fa-snowflake"></i>
+    
+        <div class="input-group">
+            <label>Повне імя</label>
+            <input type="text" placeholder="Введіть ваше ім'я" id="contact-name" onkeyup="validateName()">
+            <span id="name-error"></span>    
+        </div>
+    
+          <div class="input-group">
+            <label>Номер Телефону</label>
+            <input type="tel" placeholder="+38 0" id="contact-phone" onkeyup="validatePhone()">
+            <span id="phone-error"></span>
+        </div>
+    
+          <div class="input-group">
+            <label>Ваш Email</label>
+            <input type="email" placeholder="Введіть ваш email" id="contact-email" onkeyup="validateEmail()">
+            <span id="email-error"></span>
+          </div> 
+          
+          <div class="input-group">
+            <label>Ваш пароль</label>
+            <input type="password" placeholder="Введіть свій пароль" id="contact-password" onkeyup="validatePassword()">
+            <p id="message">Password is <span id="strenght"></span></p>
+            <span id="password-error"></span>
+          </div> 
+    
+        <button onclick="return validateForm()">Зареєструватися</button>
+          <span id="submit-error"></span>
+      </form>    
+</body>
+    <script src="/signs/signUp.js"></script>
+</html>

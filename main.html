@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishAmigo - Безкоштовна онлайн школа англійської</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74579244ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-brand">
+                <i class="fa-regular fa-snowflake"></i>
+                <h1>EnglishAmigo</h1>
+            </div>
+            <div class="header-menu">
+                <button class="modal-btn">Связок</button>
+                <button class="header-vocabulary">Cловник</button>
+                <a href="/signs/signUp.html">
+                    <button id="signUp">Увійти</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <h3 class="modal-text">Контакти</h3>
+            <div class="modal-contacts">
+                <p>0 800 31 04 50</p>
+                <p>Безкоштовно з усіх номерів по Україні</p>
+                <p>englishamigo@gmail.com</p>
+            </div>
+            <div class="modal-text-connection">
+                <h4>Зв’яжися з нами <br> зручним способом</h4>
+                    <a href="https://t.me/primo887" target="_blank">
+                        <img src="/images/telegramICOMN.jpg" alt="">
+                    </a>
+            </div>
+
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <section class="checkLevel">
+        <h1 class="checkQuestion">Перевірка рівня англійської</h1>
+        <div id="quiz">
+            <h1 id="question">Some question</h1>
+            <div id="buttons-answer">
+                <!-- <button>Answer 1</button> -->
+            </div>
+            <div id="result-test"></div>
+            <button id="nextButton"></button>
+        </div>
+    </section>
+
+    <section class="first-section">
+        <div class="check-english-level" id="container">
+            <span id="about-check-btn">Перевірка рівня допоможе <br> краще визначати<br> ваш рівень англійської</span>
+            <button id="check-button">Перевірити свій рівень</button>
+        </div>
+        <h3>Безкоштовна онлайн школа англійської <br> для початківців</h3>
+    </section>
+
+    <section class="list-courses" id="list-text">
+        <h2>Всі доступні курси для прокачки вашої англійської</h2>
+    </section>
+
+    <div id="arrow" class="arrow"></div>
+
+    <div class="body-container" id="body-container">
+
+        <section class="courses-container">
+            <ul class="tabs">
+            <li class="tab-item">
+                <a href="#item1" class="active">A1</a>
+            </li>
+            <li class="tab-item">
+                <a href="#item2">A2</a>
+            </li>
+            <li class="tab-item">
+                <a href="#item3" >B1</a>
+            </li>
+            <li class="tab-item">
+                <a href="#item4" >B2</a>
+            </li>
+            <li class="tab-item">
+                <a href="#item5">C1</a>
+            </li>
+        </ul>
+
+        <div class="wrapper_tab-content">
+            <article id="item1" class="tab-content content-visible">
+                <h1>A1 Beginner</h1>
+                    <div class="courses-container2">
+                        <div class="course-a1">
+                            <div class="about-courseA1">
+                                <p>Урок 1. Теорія<br></p>
+                                <div class="course-a1-topic">Present Simple</div>
+                                <img src="/images/EnglishIMG1.jpg" width="200">
+                            </div>
+                            <a href="/courseA1/startTheory.html">
+                                <button id="course-a1-start-theory">Почати</button>
+                            </a>
+                        </div>
+
+                        <div class="course-a1">
+                            <div class="about-courseA1">
+                                <p class="about-lesson">Урок 2. Практика Present Simple<br></p>
+                                <img src="/images/EnglishIMG2.jpg" width="200">
+                            </div>
+                            <a href="/courseA1/practiceA1.html">
+                                <button id="course-a1-start-practice">Почати</button>
+                            </a>
+                        </div>
+
+                        <div class="course-a1">
+                            <div class="about-courseA1">
+                                <p>Урок 3. Теорія<br></p>
+                                <div class="course-a1-topic">Past Simple</div>
+                                <img src="/images/englishIMG3.png" width="200">
+                            </div>
+                            <a href="/courseA1/pastSimple/pastSimple.html">
+                                <button id="course-a1-start-theory">Почати</button>
+                            </a>
+                        </div>
+
+                        <div class="course-a1">
+                            <div class="about-courseA1">
+                                <p class="about-lesson">Урок 4. Практика Past Simple<br></p>
+                                <img src="/images/englishIMG4.jpg" width="200">
+                            </div>
+                            <a href="/courseA1/pastSimple/PastSimplePractice.html">
+                                <button id="course-a1-start-practice">Почати</button>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </article>
+            <article id="item2" class="tab-content">
+                <h1>A2 Pre-Intermidiate </h1>
+                <div class="courses-container2">
+                    <div class="course-a1">
+                        <div class="about-courseA1">
+                            <p>Урок 1. Теорія<br></p>
+                            <div class="course-a1-topic">Present Simple</div>
+                            <img src="/images/EnglishIMG1.jpg" width="200">
+                        </div>
+                        <!-- <a href="/courseA1/startTheory.html"> -->
+                            <button id="course-a1-start-theory">Почати</button>
+                        <!-- </a> -->
+                    </div>
+
+                    <div class="course-a1">
+                        <div class="about-courseA1">
+                            <p class="about-lesson">Урок 2. Практика Present Simple<br></p>
+                            <img src="/images/EnglishIMG2.jpg" width="200">
+                        </div>
+                        <!-- <a href="/courseA1/practiceA1.html"> -->
+                            <button id="course-a1-start-practice">Почати</button>
+                        <!-- </a> -->
+                    </div>
+
+                    <div class="course-a1">
+                        <div class="about-courseA1">
+                            <p>Урок 3. Теорія<br></p>
+                            <div class="course-a1-topic">Past Simple</div>
+                            <img src="/images/englishIMG3.png" width="200">
+                        </div>
+                        <a href="/courseA1/pastSimple/pastSimple.html">
+                            <button id="course-a1-start-theory">Почати</button>
+                        </a>
+                    </div>
+
+                    <div class="course-a1">
+                        <div class="about-courseA1">
+                            <p class="about-lesson">Урок 4. Практика Past Simple<br></p>
+                            <img src="/images/englishIMG4.jpg" width="200">
+                        </div>
+                        <a href="/courseA1/pastSimple/PastSimplePractice.html">
+                            <button id="course-a1-start-practice">Почати</button>
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+            <article id="item3" class="tab-content">
+                <h1>JAVASCRIPT</h1>
+                <p>JavaScript — динамічна, об'єктно-орієнтована прототипна мова програмування. Реалізація стандарту ECMAScript. </p>
+            </article>
+            <article id="item4" class="tab-content">
+                <h1>REACT</h1>
+                <p>React — відкрита JavaScript бібліотека для створення інтерфейсів користувача, яка покликана вирішувати проблеми часткового оновлення вмісту вебсторінки, з якими стикаються в розробці односторінкових застосунків. Розробляється Meta і спільнотою індивідуальних розробників.</p>
+            </article>
+            <article id="item5" class="tab-content">
+                <h1>NODE</h1>
+                <p>Node.js — платформа з відкритим кодом для виконання високопродуктивних мережевих застосунків, написаних мовою JavaScript. Засновником платформи є Раян Дал. </p>
+            </article>
+        </div>
+    </section>
+</div>
+    
+</body>
+<script src="main.js"></script>
+<script src="/quiz.js"></script>
+<!-- <script src="/courseA1/startTheoryA1.js"></script> -->
+</html>

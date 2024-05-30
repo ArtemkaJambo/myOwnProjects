@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+body {
+    background: #0092ca; 
+}
+
+.practiceLevel {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin: 100px auto 0;
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+}
+.practiceQuestion {
+    font-family: "Open Sans", sans-serif;
+    color: #3806c0;
+    font-weight: 600;
+    border-bottom: 1px solid #3806c0;
+    padding: 7px 0;
+    
+}
+#practiceQuestionID {
+    padding: 20px 0;
+    color: #3806c0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    /* position: relative; */
+
+}
+
+#practice-buttons-answer button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#practice-buttons-answer button:hover:not([disabled]) {
+    background-color: #606470;
+    color: white;
+}
+#practice-nextButton {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    background-color: #3806c0;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tips {
+    width: 200px;
+    height: 520px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    border-radius: 12px;
+}
+.tips h4 {
+    text-align: center;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.tips-container p {
+    padding-left: 20px;
+}
+.correct {
+    background-color: rgb(34, 228, 34) !important; 
+    /* color: white; */
+}
+.incorrect {
+    background-color: rgb(244, 31, 31) !important;
+    /* color: white; */
+}
