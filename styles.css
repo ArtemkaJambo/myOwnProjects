@@ -516,5 +516,7 @@ li a:hover {
     font-size: 16px; 
     cursor: pointer;
     transition: background-color 0.3s ease;
-
+}
+#item5:disabled {
+    background-color: rgb(168, 161, 161);
 }

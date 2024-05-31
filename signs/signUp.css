@@ -12,19 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-/* .useful-links{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-}
-.useful-links a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-} */
 
 .container form{
     width: 90%;
@@ -117,3 +107,11 @@ form button{
 #input-group  span {
     width: 100px;
 }
+.returnToWebsite {
+    margin-top: 20px;
+    color:  #c4c1e0;
+    font-weight: 600;
+    border-bottom: 1px solid #c4c1e0;
+    cursor: pointer;
+}
+

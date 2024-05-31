@@ -100,3 +100,9 @@ pass.addEventListener('input', () => {
         str.style.color = '#26d730'
     }
 })
+
+const returnToWebsite = document.querySelector('.returnToWebsite')
+
+returnToWebsite.addEventListener('click', function() {
+    window.location.href = '/main.html';
+})
