@@ -409,7 +409,9 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .courses-container {
     max-width: 600px;

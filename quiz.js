@@ -174,6 +174,9 @@ nextButton.addEventListener('click', function() {
     } else {
     checkLevelIDScreen.style.display = 'none'
     firstSection.style.display = 'block'
+    bodyContainer.style.display = 'block'
+    listText.style.display = 'block'
+    arrow.style.display = 'block'
     startQuiz()
 
     }
