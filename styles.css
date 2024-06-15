@@ -403,6 +403,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .body-container {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -412,6 +413,9 @@ a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 300px;
+}
+.tabs {
 }
 .courses-container {
     max-width: 600px;
@@ -452,7 +456,7 @@ li a:hover {
     position: static;
     visibility: visible;
     visibility: inherit;
-    height: auto;
+    height: 200px;
 }
 .active {
     color: #444;
