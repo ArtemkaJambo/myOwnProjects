@@ -54,6 +54,15 @@ body {
     color: white;
     cursor: pointer;
 }
+.vocabulary {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
 #signUp {
     background: transparent;
     border: none;
@@ -353,28 +362,19 @@ body {
     transform: rotate(-45deg);
 }
 
+
 @keyframes bounce {
-    0% {
+     0% {
         transform: translate(0);
-    }
-    20% {
+     }
+     20% {
         transform: translateY(15px);
-    }
-    40% {
-        transform: translate(0);
-    }
+     }
+     40% {
+        transform: translateY(0);
+     }
 }
-@-webkit-keyframes bounce {
-    0% {
-        transform: translate(0);
-    }
-    20% {
-        transform: translate(15px);
-    }
-    40% {
-        transform: translate(0);
-    }
-}
+
 .fade-in {
     opacity: 1;
     transition: 1s all ease-in;
@@ -409,13 +409,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 300px;
-}
-.tabs {
 }
 .courses-container {
     max-width: 600px;
@@ -508,7 +506,7 @@ li a:hover {
     transition: background-color 0.3s ease;
 }
 #course-a1-start-theory:hover #course-a1-start-practice:hover {
-    background-color: #45a049; /* Зміна кольору фону при наведенні */
+    background-color: #45a049; 
 }
 #course-a1-start-practice {
     background-color: #4CAF50; 
@@ -526,3 +524,4 @@ li a:hover {
 #item5:disabled {
     background-color: rgb(168, 161, 161);
 }
+/* notification */

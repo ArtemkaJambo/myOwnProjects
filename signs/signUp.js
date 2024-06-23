@@ -37,7 +37,6 @@ function validateEmail() {
     let email = document.getElementById('contact-email').value
 
     if (email.length == 0) {
-        // emailError.innerHTML = 'Необхідно вказати адресу електронної пошти'
         emailError.innerHTML = 'Вкажіть ваш email'
         return false
     }

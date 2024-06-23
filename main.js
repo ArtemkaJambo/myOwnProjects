@@ -10,9 +10,6 @@ closeBtn.addEventListener('click', function() {
     modal.classList.remove('open-modal')
 })
 
-let eyeIcon = document.getElementById('eyeicon')
-let password = document.getElementById('password')
-
 // ARROW
 let arrow = document.getElementById('arrow')
 window.addEventListener('scroll', () => {
@@ -20,7 +17,7 @@ window.addEventListener('scroll', () => {
     if (position <= 5) {
         arrow.classList.toggle('fade-in')
         arrow.classList.toggle('fade-out')
-    }
+    } 
 })
 
 // COURSES
@@ -39,3 +36,4 @@ document.addEventListener('click', e => {
         getTab(e.target)
     }
 })
+// notification

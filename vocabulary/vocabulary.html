@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Словник</title>
+    <link
+      rel="stylesheet"
+      href="vocabulary.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/74579244ec.js"crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <nav>
+        <div class="header-container">
+          <div class="header-brand">
+            <i class="fa-regular fa-snowflake"></i>
+            <a href="/main.html">
+              <h1>EnglishAmigo</h1>
+            </a>
+          </div>
+          <div class="header-menu">
+            <button class="modal-btn">Связок</button>
+            <a href="/signs/signUp.html">
+              <button id="signUp">Увійти</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="body-notification">
+      <ul class="notifications"></ul>
+    </div>
+
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3 class="modal-text">Контакти</h3>
+        <div class="modal-contacts">
+          <p>0 800 31 04 50</p>
+          <p>Безкоштовно з усіх номерів по Україні</p>
+          <p>englishamigo@gmail.com</p>
+        </div>
+        <div class="modal-text-connection">
+          <h4>
+            Зв’яжися з нами <br />
+            зручним способом
+          </h4>
+          <a
+            href="https://t.me/primo887"
+            target="_blank">
+            <img
+              src="/images/telegramICOMN.jpg"
+              alt="" />
+          </a>
+        </div>
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <div class="about-vocabulary">
+        <h1>Розширюй свій словниковий запас</h1>
+        <p>Пропрацьовуй лексику за допомогою словника та розмовника.</p>
+      </div>
+      <img
+        src="/vocabulary/images/justIMG.png"
+        alt="" />
+    </main>
+
+    <div class="container">
+      <nav class="nav-container">
+        <ul>
+          <li data-f="all">Всі набори</li>
+          <li data-f="easy">Легкий</li>
+          <li data-f="middle">Середній</li>
+          <li data-f="hard">Складний</li>
+        </ul>
+      </nav>
+      <div
+        class="block-cover"
+        id="block-cover">
+       
+      </div>
+    </div>
+  </body>
+  <script src="vocabulary.js"></script>
+</html>
