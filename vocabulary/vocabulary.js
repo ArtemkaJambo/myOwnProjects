@@ -113,7 +113,7 @@ let cartsItemsDate = [
     words: '14    слів',
     hard: 'Середній',
     colorCircle: 'orange',
-    img: 'images/girlbodyIMG.png',
+    img: '/images/girlbodyIMG.png',
     cartName: 'Частини тіла',
   },
   {
