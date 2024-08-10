@@ -113,7 +113,7 @@ let cartsItemsDate = [
     words: '14    слів',
     hard: 'Середній',
     colorCircle: 'orange',
-    img: 'vocabulary/images/girlbodyIMG.png',
+    img: 'images/girlbodyIMG.png',
     cartName: 'Частини тіла',
   },
   {
@@ -122,7 +122,7 @@ let cartsItemsDate = [
     words: '15 слів',
     hard: 'Середній',
     colorCircle: 'orange',
-    img: 'vocabulary/images/dogIMG.jpg',
+    img: 'images/dogIMG.jpg',
     cartName: 'Неправильні дієслова',
   },
   {
