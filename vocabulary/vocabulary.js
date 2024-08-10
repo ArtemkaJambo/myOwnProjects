@@ -95,7 +95,7 @@ let cartsItemsDate = [
     words: '11 слів',
     hard: 'Легкий',
     colorCircle: 'green',
-    img: '/vocabulary/images/petIMG.png',
+    img: 'vocabulary/images/petIMG.png',
     cartName: 'Домашні тварини',
   },
   {
@@ -104,7 +104,7 @@ let cartsItemsDate = [
     words: '18 слів',
     hard: 'Легкий',
     colorCircle: 'green',
-    img: '/vocabulary/images/beginnerIMg.png',
+    img: 'vocabulary/images/beginnerIMg.png',
     cartName: 'Топ 30 для початківців',
   },
   {
@@ -113,7 +113,7 @@ let cartsItemsDate = [
     words: '14    слів',
     hard: 'Середній',
     colorCircle: 'orange',
-    img: '/vocabulary/images/girlbodyIMG.png',
+    img: 'vocabulary/images/girlbodyIMG.png',
     cartName: 'Частини тіла',
   },
   {
@@ -122,7 +122,7 @@ let cartsItemsDate = [
     words: '15 слів',
     hard: 'Середній',
     colorCircle: 'orange',
-    img: '/vocabulary/images/dogIMG.jpg',
+    img: 'vocabulary/images/dogIMG.jpg',
     cartName: 'Неправильні дієслова',
   },
   {
@@ -131,7 +131,7 @@ let cartsItemsDate = [
     words: '20 слів',
     hard: 'Складний',
     colorCircle: 'red',
-    img: '/vocabulary/images/girlIMG.png',
+    img: 'vocabulary/images/girlIMG.png',
     cartName: 'Емоції',
   },
   {
@@ -140,7 +140,7 @@ let cartsItemsDate = [
     words: '25 слів',
     hard: 'Складний',
     colorCircle: 'red',
-    img: '/vocabulary/images/ieltsIMG.jfif',
+    img: 'vocabulary/images/ieltsIMG.jfif',
     cartName: 'Топ 30 слів для IELTS',
   },
  
