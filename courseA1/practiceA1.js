@@ -274,7 +274,7 @@ practiceNextButton.addEventListener('click', function() {
     if (currentQuestionIndex < question.length) {
         clickNextQuestion()
     } else {
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
     }
 })
 
