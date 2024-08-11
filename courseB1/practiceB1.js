@@ -72,11 +72,11 @@ const question = [
         ]
     },
     {
-        question: 'Have long have you been waiting for me?',
+        question: 'Як довго ти чекаєш на мене?',
         answers: [
             {text: 'How long had you been waiting for me?', correct: false},
             {text: 'Have you already found this product?', correct: false},
-            {text: 'How long have you been waiting for me?', correct: true},
+            {text: 'Have long have you been waiting for me?', correct: true},
             {text: 'We need to go to that place', correct: false},
         ]
     },
@@ -185,7 +185,7 @@ practiceNextButton.addEventListener('click', function() {
     if (currentQuestionIndex < question.length) {
         clickNextQuestion()
     } else {
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
     }
 })
 
