@@ -292,7 +292,7 @@ nextButton.addEventListener('click', function() {
     if (currentQuestionIndex < question.length) {
         clickNextQuestion()
     } else {
-    window.location.href = 'vocabulary.html'
+    window.location.href = '../vocabulary.html'
 
     }
 })
