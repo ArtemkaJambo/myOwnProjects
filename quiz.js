@@ -76,6 +76,7 @@ const bodyContainer = document.getElementById('body-container')
 const listText = document.getElementById('list-text')
 
 checkLevelBtn.addEventListener('click', function() {
+    console.log('clicked');
     
     checkLevelIDScreen.style.display = 'block'
     firstSection.style.display = 'none'

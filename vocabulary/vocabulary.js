@@ -101,7 +101,7 @@ let cartsItemsDate = [
   {
     id: 'SecondID',
     className: 'easy',
-    words: '18 слів',
+    words: '30 слів',
     hard: 'Легкий',
     colorCircle: 'green',
     img: 'images/beginnerIMg.png',
