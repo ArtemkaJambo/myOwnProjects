@@ -103,5 +103,5 @@ pass.addEventListener('input', () => {
 const returnToWebsite = document.querySelector('.returnToWebsite')
 
 returnToWebsite.addEventListener('click', function() {
-    window.location.href = '/main.html';
+    window.location.href = '../index.html';
 })
