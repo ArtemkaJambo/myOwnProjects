@@ -227,17 +227,17 @@ const increment = (wordCount, cartName, id) => {
 
 function selectSets(id) {
   if (id === 'firstID') {
-     window.location.href = '/vocabulary/setPet/setPet.html'
+     window.location.href = 'setPet/setPet.html'
   } else if (id === 'SecondID') {
-    window.location.href = '/vocabulary/topForBeginners/topForBeginners.html'
+    window.location.href = 'topForBeginners/topForBeginners.html'
   } else if (id === 'ThirdID') {
-    window.location.href = '/vocabulary/bodyParts/bodyParts.html'
+    window.location.href = 'bodyParts/bodyParts.html'
   } else if (id === 'FourID') {
-    window.location.href = '/vocabulary/irregularVerbs/irregularVerbs.html'
+    window.location.href = 'irregularVerbs/irregularVerbs.html'
   } else if (id === 'FiveID') {
-    window.location.href = '/vocabulary/emotions/emotions.html'
+    window.location.href = 'emotions/emotions.html'
   } else if (id === 'SixID') {
-    window.location.href = '/vocabulary/IETELS/ietels.html'
+    window.location.href = 'IETELS/ietels.html'
   }
 }
 
